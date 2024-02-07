@@ -1,4 +1,5 @@
 import styles from 'styles/hero.module.css'
+
 const Hero = ({ title, subtitle, imageOn = false }) => {
   return (
     <div>
@@ -10,5 +11,4 @@ const Hero = ({ title, subtitle, imageOn = false }) => {
     </div>
   )
 }
-
 export default Hero
